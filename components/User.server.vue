@@ -1,5 +1,5 @@
 <script setup>
-import prisma from "~/lib/prisma";
+import prisma from "@/lib/prisma";
 const user = await prisma.user.findFirst();
 </script>
 
